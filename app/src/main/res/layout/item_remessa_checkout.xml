@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dip">
+
+    <LinearLayout
+        android:id="@+id/thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginEnd="5dip"
+        android:padding="3dip">
+
+        <ImageView
+            android:id="@+id/iconImageView"
+            android:layout_width="50dip"
+            android:layout_height="50dip"
+            android:contentDescription="@string/icone_pacote"
+            android:src="@drawable/ic_shopping_bask" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/nomePacoteTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/thumbnail"
+        android:layout_toEndOf="@+id/thumbnail"
+        android:text="@string/placeholder_nome_pacote"
+        android:textColor="#040404"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/conteudoPacoteTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nomePacoteTextView"
+        android:layout_marginTop="1dip"
+        android:layout_toEndOf="@+id/thumbnail"
+        android:text="@string/placeholder_conteudo_pacote"
+        android:textColor="#343434"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/associacaoPacoteTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/conteudoPacoteTextView"
+        android:layout_marginTop="1dip"
+        android:layout_toEndOf="@+id/thumbnail"
+        android:text="@string/placeholder_conteudo_pacote"
+        android:textColor="#343434"
+        android:textSize="12sp" />
+
+</RelativeLayout>

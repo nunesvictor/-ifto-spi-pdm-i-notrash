@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">noTrash</string>
+    <string name="username">Nome de usuário</string>
+    <string name="password">Senha</string>
+    <string name="entrar_form_button_text">Entrar</string>
+    <string name="home">Home</string>
+    <string name="nova_remessa">Nova remessa</string>
+    <string name="perfil">Perfil</string>
+    <string name="criar_remessa">Criar remessa</string>
+    <string name="dialog_confirm_create_remessa">No passo seguinte serão gerados pacotes por tipo de resíduo, assim fica mais fácil encontrar uma associação de coletores que tenha interesse pelo pacote.\n\nAo continuar, você confirma que irá separar os resíduos nos pacotes conforme indicado. Quer mesmo continuar?</string>
+    <string name="sim_quero_continuar">sim, quero continuar</string>
+    <string name="cancelar">cancelar</string>
+    <string name="remessa_criada">Remessa criada!</string>
+    <string name="subtitle_remessa_criada">Confia abaixo os pacotes da remessa e como devem ser organizados.</string>
+    <string name="solicitar_retirada">Solicitar retirada</string>
+    <string name="icone_pacote">Ícone de pacote</string>
+    <string name="placeholder_nome_pacote">Placeholder: nome pacote</string>
+    <string name="placeholder_conteudo_pacote">Placeholder: conteudo pacote</string>
+    <string name="nome_pacote">Pacote #%02d</string>
+    <string name="subtitle_nova_remessa">Selecione todos os produtos que deseja adicionar à remessa</string>
+    <string name="dispensar">Dispensar</string>
+    <string name="login_senha_incorretos">Login ou senha incorretos</string>
+    <string name="recycling_symbol">recycling symbol</string>
+    <string name="placeholder_username">placeholder: username</string>
+    <string name="membro_desde_dez_2021">Membro desde dez, 2021.</string>
+    <string name="lorem_ipsum_bio">Lorem ipsum dolor sit amet, ullum error eum at, has et utamur copiosae constituto. Ullum assum harum ea eam, ut nonumy deterruisset has. Vel adhuc novum fabellas at, at sed errem exerci, alienum periculis eam no. Ius dico zril graecis ea, te usu hinc primis, eos agam viderer id. Soluta audiam vis eu, et duo solet libris facilis.</string>
+    <string name="nova_inscricao_button_text">Novo aqui? Inscreva-se</string>
+    <string name="inscrever_form_button_text">Inscrever</string>
+    <string name="confirm_password">Confirmar senha</string>
+    <string name="suas_remessas">Suas remessas</string>
+    <string name="subtitle_suas_remessas">Aqui estão as remessas que você já criou</string>
+    <string name="sair">Sair</string>
+    <string name="voce_sabia">Você sabia?</string>
+</resources>

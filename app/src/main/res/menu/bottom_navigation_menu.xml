@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homePageItem"
+        android:enabled="true"
+        android:icon="@drawable/ic_home"
+        android:title="@string/home"/>
+    <item
+        android:id="@+id/novaRemessaPageItem"
+        android:enabled="true"
+        android:icon="@drawable/ic_add_task"
+        android:title="@string/nova_remessa"/>
+    <item
+        android:id="@+id/perfilPageItem"
+        android:enabled="true"
+        android:icon="@drawable/ic_person"
+        android:title="@string/perfil"/>
+</menu>
